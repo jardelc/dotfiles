@@ -1,0 +1,5 @@
+Global installation:
+    Replace /etc/X11/xinit/xinitrc
+
+User installation:
+    Replace ~/.xinitrc
