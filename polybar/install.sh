@@ -35,7 +35,7 @@ install() {
 
 # Main
 main() {
-	install_dependencies "htop alacritty ttf-font-awesome rofi"
+	install_dependencies "htop alacritty ttf-font-awesome rofi cantarell-fonts"
 	install "Polybar config" "config.ini" "/etc/polybar"
 	install "Polybar launcher" "launch.sh" "/etc/polybar"
 }
