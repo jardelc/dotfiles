@@ -192,6 +192,7 @@ gaps outer 5px
 
 exec --no-startup-id dunst
 exec --no-startup-id picom
+exec --no-startup-id [ ! -f ~/.config/nitrogen/bg-saved.cfg ] && nitrogen --save --set-scaled /usr/share/backgrounds/archlinux/awesome.png
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id /etc/polybar/launch.sh
 exec --no-startup-id nm-applet
