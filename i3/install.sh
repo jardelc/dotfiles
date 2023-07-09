@@ -35,7 +35,7 @@ install() {
 
 # Main
 main() {
-	install_dependencies "picom nitrogen polybar dunst network-manager-applet alacritty gnome-screenshot archlinux-wallpaper"
+	install_dependencies "picom nitrogen polybar dunst network-manager-applet alacritty gnome-screenshot archlinux-wallpaper blueman pasystray"
 	install "I3" "config" "/etc/i3"
 }
 

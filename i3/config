@@ -196,8 +196,8 @@ exec --no-startup-id [ ! -f ~/.config/nitrogen/bg-saved.cfg ] && nitrogen --save
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id /etc/polybar/launch.sh
 exec --no-startup-id nm-applet
-#exec --no-startup-id pasystray
-#exec --no-startup-id blueman-applet
+exec --no-startup-id pasystray
+exec --no-startup-id blueman-applet
 #exec_always ~/.config/i3/i3scripts/autoname_workspaces.py &
 
 #interactive screenshot by pressing printscreen
