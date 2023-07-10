@@ -37,6 +37,10 @@ install() {
 main() {
         install_dependencies "zsh ttf-meslo-nerd neofetch" 	
 	[ ! -d /usr/share/oh-my-zsh ] && git clone https://github.com/ohmyzsh/ohmyzsh.git /usr/share/oh-my-zsh 
+	[ ! -d /usr/share/oh-my-zsh/custom/plugins/zsh-autosuggestions ] && git clone https://github.com/zsh-users/zsh-autosuggestions.git /usr/share/oh-my-zsh/custom/plugins/zsh-autosuggestions
+	[ ! -d /usr/share/oh-my-zsh/custom/plugins/zsh-syntax-highlighting ] && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /usr/share/oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+	[ ! -d /usr/share/oh-my-zsh/custom/plugins/fast-syntax-highlighting ] && git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git /usr/share/oh-my-zsh/custom/lugins/fast-syntax-highlighting
+	[ ! -d /usr/share/oh-my-zsh/custom/plugins/zsh-autocomplete ] && git clone https://github.com/marlonrichert/zsh-autocomplete.git /usr/share/oh-my-zsh/custom/plugins/zsh-autocomplete
 	[ ! -d /usr/share/powerlevel10k ] && git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /usr/share/powerlevel10k
 	install "zshrc config" "zshrc" "/etc/zsh" 
 	install "Powerlevel10k config" "p10k.zsh" "/etc/zsh"
