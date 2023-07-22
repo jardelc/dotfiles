@@ -185,8 +185,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Configure 5px of space between windows and to the screen edges.
-gaps inner 15px
-gaps outer 5px
+gaps inner 10px
+#gaps outer 5px
 
 ##### Startup Applications
 
@@ -198,6 +198,11 @@ exec_always --no-startup-id /etc/polybar/launch.sh
 exec --no-startup-id nm-applet
 exec --no-startup-id pasystray
 exec --no-startup-id blueman-applet
+
+for_window [class="Nm-connection-editor"] floating enable
+for_window [class="Nm-connection-editor"] resize set 640 480
+for_window [class="Blueman-manager"] floating enable
+for_window [class="Blueman-manager"] resize set 640 480
 #exec_always ~/.config/i3/i3scripts/autoname_workspaces.py &
 
 #interactive screenshot by pressing printscreen
