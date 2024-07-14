@@ -1,4 +1,5 @@
 .bashrc
+.bash_aliases
 .config/kitty/kitty.conf
 .config/kitty/current-theme.conf
 .config/neofetch/config.conf
