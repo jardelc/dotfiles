@@ -5,3 +5,4 @@
 .config/ranger
 .zshrc
 .p10k.zsh
+.local/bin/kubectl
