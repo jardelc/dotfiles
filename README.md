@@ -3,7 +3,10 @@
 Dependencies:
 
 sudo apt update
-sudo apt install kitty vim fonts-inconsolata pithon3-pil ranger curl
+sudo apt install kitty vim fonts-inconsolata curl neofetch
+
+## FOr ranger only
+sudo apt install python3-pil ranger
 
 sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -15,6 +18,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+git clone https://github.com/jardelc/zsh-kubectl-autocomplete.git $ZSH_CUSTOM/plugins/kubectl-autocomplete
 
 
 git clone https://github.com/jardelc/dotfiles.git ~/djdl-dotfiles && cd ~/djdl-dotfiles && ./install_files.sh
