@@ -2,9 +2,10 @@
 
 Dependencies:
 
+sudo apt update
 sudo apt install kitty vim fonts-inconsolata pithon3-pil ranger curl
 
-sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh
+sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
