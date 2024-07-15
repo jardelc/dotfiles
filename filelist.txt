@@ -1,5 +1,5 @@
 .bashrc
-.bash_aliases
+.my_aliases
 .config/kitty
 .config/neofetch
 .config/ranger
