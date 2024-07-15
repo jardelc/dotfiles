@@ -3,6 +3,5 @@
 .config/kitty
 .config/neofetch
 .config/ranger
-.oh-my-zsh
 .zshrc
 .p10k.zsh
