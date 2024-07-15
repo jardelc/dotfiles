@@ -3,12 +3,10 @@
 Dependencies:
 
 sudo apt update
-sudo apt install kitty vim fonts-inconsolata curl neofetch
 
-## FOr ranger only
-sudo apt install python3-pil ranger
+sudo apt install kitty vim fonts-inconsolata curl neofetch git python3-pil ranger zsh
 
-sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh git
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
