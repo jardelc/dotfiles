@@ -6,3 +6,4 @@
 .zshrc
 .p10k.zsh
 .local/bin/kubectl
+.vimrc
